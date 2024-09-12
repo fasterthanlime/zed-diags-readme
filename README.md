@@ -35,7 +35,7 @@ stderr: 7: __pthread_deallocate
 
 And r-a is inactive until restarted.
 
-Restarting it _only works_ when `lib.rs` is restarted:
+Restarting it _only works_ when `lib.rs` is the active tab:
 otherwise, the `editor: restart language server` action
 is still present in the command palette, but doesn't
 appear do anything.
